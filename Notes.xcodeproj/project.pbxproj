@@ -82,13 +82,10 @@
 		F0B3C5682BC53D7100A9B41C /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				F0F9F9922BC68FC40008CB8E /* Model */,
+				F0F9F9932BC68FDA0008CB8E /* View */,
+				F0F9F9942BC692410008CB8E /* ViewModel */,
 				F0B3C5692BC53D7100A9B41C /* NotesApp.swift */,
-				F0B3C5842BC5405200A9B41C /* NoteModel.swift */,
-				F0F9F9902BC66C890008CB8E /* NoteView.swift */,
-				F0F3D0E62BC6429C00897139 /* Login.swift */,
-				F0B3C5882BC5413F00A9B41C /* NoteDetail.swift */,
-				F0B3C5862BC540B700A9B41C /* NoteViewModel.swift */,
-				F0B3C56B2BC53D7100A9B41C /* ContentView.swift */,
 				F0F3D0ED2BC6601200897139 /* EmailAnimation.json */,
 				F0B3C5772BC53EFA00A9B41C /* GoogleService-Info.plist */,
 				F0B3C56D2BC53D7200A9B41C /* Assets.xcassets */,
@@ -110,6 +107,34 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0F9F9922BC68FC40008CB8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3C5842BC5405200A9B41C /* NoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0F9F9932BC68FDA0008CB8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3C56B2BC53D7100A9B41C /* ContentView.swift */,
+				F0F3D0E62BC6429C00897139 /* Login.swift */,
+				F0F9F9902BC66C890008CB8E /* NoteView.swift */,
+				F0B3C5882BC5413F00A9B41C /* NoteDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0F9F9942BC692410008CB8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3C5862BC540B700A9B41C /* NoteViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
