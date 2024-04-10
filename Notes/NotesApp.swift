@@ -2,27 +2,17 @@
 //  NotesApp.swift
 //  Notes
 //
-//  Created by user250993 on 4/9/24.
+//  Created by user250993 on 4/3/24.
 //
 
 import SwiftUI
-import FirebaseCore
-
-
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-
-    return true
-  }
-}
+import Firebase
 
 @main
 struct NotesApp: App {
-    
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

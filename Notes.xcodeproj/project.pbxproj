@@ -18,6 +18,14 @@
 		F0B3C5892BC5413F00A9B41C /* NoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B3C5882BC5413F00A9B41C /* NoteDetail.swift */; };
 		F0B3C58C2BC5426C00A9B41C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F0B3C58B2BC5426C00A9B41C /* FirebaseFirestore */; };
 		F0B3C58E2BC5427500A9B41C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F0B3C58D2BC5427500A9B41C /* FirebaseFirestoreSwift */; };
+		F0F3D0B12BC63A1C00897139 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0F3D0B02BC63A1C00897139 /* FirebaseAnalytics */; };
+		F0F3D0BD2BC63A1C00897139 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F0F3D0BC2BC63A1C00897139 /* FirebaseAuth */; };
+		F0F3D0C92BC63A1C00897139 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F0F3D0C82BC63A1C00897139 /* FirebaseFirestore */; };
+		F0F3D0CD2BC63A1C00897139 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F0F3D0CC2BC63A1C00897139 /* FirebaseFirestoreSwift */; };
+		F0F3D0E72BC6429C00897139 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3D0E62BC6429C00897139 /* Login.swift */; };
+		F0F3D0EA2BC65D4D00897139 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F0F3D0E92BC65D4D00897139 /* Lottie */; };
+		F0F3D0EE2BC6601200897139 /* EmailAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = F0F3D0ED2BC6601200897139 /* EmailAnimation.json */; };
+		F0F9F9912BC66C890008CB8E /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F9F9902BC66C890008CB8E /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,9 @@
 		F0B3C5842BC5405200A9B41C /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		F0B3C5862BC540B700A9B41C /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		F0B3C5882BC5413F00A9B41C /* NoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetail.swift; sourceTree = "<group>"; };
+		F0F3D0E62BC6429C00897139 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F0F3D0ED2BC6601200897139 /* EmailAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmailAnimation.json; sourceTree = "<group>"; };
+		F0F9F9902BC66C890008CB8E /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +48,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F3D0BD2BC63A1C00897139 /* FirebaseAuth in Frameworks */,
+				F0F3D0C92BC63A1C00897139 /* FirebaseFirestore in Frameworks */,
+				F0F3D0EA2BC65D4D00897139 /* Lottie in Frameworks */,
 				F0B3C57B2BC53F4100A9B41C /* FirebaseAnalytics in Frameworks */,
 				F0B3C58C2BC5426C00A9B41C /* FirebaseFirestore in Frameworks */,
+				F0F3D0B12BC63A1C00897139 /* FirebaseAnalytics in Frameworks */,
 				F0B3C58E2BC5427500A9B41C /* FirebaseFirestoreSwift in Frameworks */,
+				F0F3D0CD2BC63A1C00897139 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,9 +84,12 @@
 			children = (
 				F0B3C5692BC53D7100A9B41C /* NotesApp.swift */,
 				F0B3C5842BC5405200A9B41C /* NoteModel.swift */,
+				F0F9F9902BC66C890008CB8E /* NoteView.swift */,
+				F0F3D0E62BC6429C00897139 /* Login.swift */,
 				F0B3C5882BC5413F00A9B41C /* NoteDetail.swift */,
 				F0B3C5862BC540B700A9B41C /* NoteViewModel.swift */,
 				F0B3C56B2BC53D7100A9B41C /* ContentView.swift */,
+				F0F3D0ED2BC6601200897139 /* EmailAnimation.json */,
 				F0B3C5772BC53EFA00A9B41C /* GoogleService-Info.plist */,
 				F0B3C56D2BC53D7200A9B41C /* Assets.xcassets */,
 				F0B3C56F2BC53D7200A9B41C /* Preview Content */,
@@ -113,6 +132,11 @@
 				F0B3C57A2BC53F4100A9B41C /* FirebaseAnalytics */,
 				F0B3C58B2BC5426C00A9B41C /* FirebaseFirestore */,
 				F0B3C58D2BC5427500A9B41C /* FirebaseFirestoreSwift */,
+				F0F3D0B02BC63A1C00897139 /* FirebaseAnalytics */,
+				F0F3D0BC2BC63A1C00897139 /* FirebaseAuth */,
+				F0F3D0C82BC63A1C00897139 /* FirebaseFirestore */,
+				F0F3D0CC2BC63A1C00897139 /* FirebaseFirestoreSwift */,
+				F0F3D0E92BC65D4D00897139 /* Lottie */,
 			);
 			productName = Notes;
 			productReference = F0B3C5662BC53D7100A9B41C /* Notes.app */;
@@ -144,6 +168,7 @@
 			mainGroup = F0B3C55D2BC53D7100A9B41C;
 			packageReferences = (
 				F0B3C5792BC53F4100A9B41C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F0F3D0E82BC65D4D00897139 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = F0B3C5672BC53D7100A9B41C /* Products */;
 			projectDirPath = "";
@@ -162,6 +187,7 @@
 				F0B3C5712BC53D7200A9B41C /* Preview Assets.xcassets in Resources */,
 				F0B3C5782BC53EFA00A9B41C /* GoogleService-Info.plist in Resources */,
 				F0B3C56E2BC53D7200A9B41C /* Assets.xcassets in Resources */,
+				F0F3D0EE2BC6601200897139 /* EmailAnimation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +201,9 @@
 				F0B3C5872BC540B700A9B41C /* NoteViewModel.swift in Sources */,
 				F0B3C56C2BC53D7100A9B41C /* ContentView.swift in Sources */,
 				F0B3C5852BC5405200A9B41C /* NoteModel.swift in Sources */,
+				F0F3D0E72BC6429C00897139 /* Login.swift in Sources */,
 				F0B3C56A2BC53D7100A9B41C /* NotesApp.swift in Sources */,
+				F0F9F9912BC66C890008CB8E /* NoteView.swift in Sources */,
 				F0B3C5892BC5413F00A9B41C /* NoteDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +418,14 @@
 				minimumVersion = 10.23.1;
 			};
 		};
+		F0F3D0E82BC65D4D00897139 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -407,6 +443,27 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F0B3C5792BC53F4100A9B41C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		F0F3D0B02BC63A1C00897139 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+		F0F3D0BC2BC63A1C00897139 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		F0F3D0C82BC63A1C00897139 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		F0F3D0CC2BC63A1C00897139 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestoreSwift;
+		};
+		F0F3D0E92BC65D4D00897139 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0F3D0E82BC65D4D00897139 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -2,7 +2,7 @@
 //  NoteViewModel.swift
 //  Notes
 //
-//  Created by user250993 on 4/9/24.
+//  Created by user250993 on 4/3/24.
 //
 
 import Foundation
@@ -36,7 +36,6 @@ class NoteViewModel : ObservableObject {
     func saveData(note: NoteModel) {
         
         if let id = note.id {
-            // Edit note
             if !note.title.isEmpty || !note.notesdata.isEmpty {
                 let docRef = db.collection("notes").document(id)
                 
@@ -52,7 +51,6 @@ class NoteViewModel : ObservableObject {
                 }
             }
         } else {
-            // Add note
             if !note.title.isEmpty || !note.notesdata.isEmpty {
                 var ref: DocumentReference? = nil
                 ref = db.collection("notes").addDocument(data: [
